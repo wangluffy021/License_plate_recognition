@@ -1,20 +1,3 @@
-## What's New
-
-**2022.12.04 车辆和车牌一起检测看这里[车辆系统](https://github.com/we0091234/Car_recognition)**
-
-[yolov8 车牌检测+识别](https://github.com/we0091234/yolov8-plate)
-
-[yolov7 车牌检测+识别](https://github.com/we0091234/yolov7_plate)
-
-[安卓NCNN](https://github.com/Ayers-github/Chinese-License-Plate-Recognition)
-
-## 联系
-**模型用的是公开数据集训练出来的，需要准确率更高的模型，或者商务合作请加V**
-
-**可代做学生毕设，以及课设大作业等**
-
-**wechat: we0091234  （注明来意）**
-
 ## **最全车牌识别算法，支持12种中文车牌类型**
 
 **环境要求: python >=3.6  pytorch >=1.7**
@@ -28,26 +11,6 @@ python detect_plate.py --detect_model weights/plate_detect.pt  --rec_model weigh
 ```
 
 测试文件夹imgs，结果保存再 result 文件夹中
-
-#### 视频测试demo  [2.MP4](https://pan.baidu.com/s/1O1sT8hCEwJZmVScDwBHgOg)  提取码：41aq
-
-```
-python detect_plate.py --detect_model weights/plate_detect.pt  --rec_model weights/plate_rec_color.pth --video 2.mp4
-```
-
-视频文件为2.mp4  保存为result.mp4
-
-## **车牌检测训练**
-
-车牌检测训练链接如下：
-
-[车牌检测训练](https://github.com/we0091234/Chinese_license_plate_detection_recognition/tree/main/readme)
-
-## **车牌识别训练**
-
-车牌识别训练链接如下：
-
-[车牌识别训练](https://github.com/we0091234/crnn_plate_recognition)
 
 #### **支持如下：**
 
@@ -65,26 +28,3 @@ python detect_plate.py --detect_model weights/plate_detect.pt  --rec_model weigh
 - [X] 12.民航车牌
 
 ![Image ](image/README/test_1.jpg)
-
-## 部署
-
-1.[安卓NCNN](https://github.com/Ayers-github/Chinese-License-Plate-Recognition)
-
-2.**onnx demo** 百度网盘： [k874](https://pan.baidu.com/s/1K3L3xubd6pXIreAydvUm4g)
-
-```
-python onnx_infer.py --detect_model weights/plate_detect.onnx  --rec_model weights/plate_rec_color.onnx  --image_path imgs --output result_onnx
-```
-
-3.**tensorrt** 部署见[tensorrt_plate](https://github.com/we0091234/chinese_plate_tensorrt)
-
-4.**openvino demo** 版本2022.2
-
-```
- python openvino_infer.py --detect_model weights/plate_detect.onnx --rec_model weights/plate_rec.onnx --image_path imgs --output result_openvino
-```
-
-
-## More
-**qq群:769809695（三群新开）  871797331(已满) 837982567（二群已满） 询问**
-
