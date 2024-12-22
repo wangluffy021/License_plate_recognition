@@ -84,10 +84,6 @@ python onnx_infer.py --detect_model weights/plate_detect.onnx  --rec_model weigh
  python openvino_infer.py --detect_model weights/plate_detect.onnx --rec_model weights/plate_rec.onnx --image_path imgs --output result_openvino
 ```
 
-## References
-
-* [https://github.com/deepcam-cn/yolov5-face](https://github.com/deepcam-cn/yolov5-face)
-* [https://github.com/Sierkinhane/CRNN_Chinese_Characters_Rec](https://github.com/Sierkinhane/CRNN_Chinese_Characters_Rec)
 
 ## More
 **qq群:769809695（三群新开）  871797331(已满) 837982567（二群已满） 询问**
